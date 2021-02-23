@@ -1,126 +1,72 @@
-/* GLOBAL RESET */
-*{box-sizing:border-box;}
-body{margin:0;}
+<!Doctype html>
+<html lang="en">
 
-/* GLOBAL COLORS */
-body{color: rgba(0,0,0,0.8);}
-a{color: rgba(0,102,204,1);}
-a:hover{color:rgba(0,51,153,1);}
+    <head>
+        <meta charset="utf-8" />
+        <title>Lily Ri</title>
+        <meta name="description" 
+              content="This is a website for Lily Ri, a fictional web design student." /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
 
-/* GLOBAL TYPOGRAPHY */
-body{
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 88.75%; /* 14px */
-    line-height: 1.4;
-}
+    <body class="page-sub"> 
+        <header>
+            <div class="site-id">
+                <h1><a href="index.html">LR</a></h1>
+            </div>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">ART 128</a></li>
+                    <li><a href="../notes/index.html">Notes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h2>ART 128</h2>
+                <p>Interface Programming 1 </p>
+            </section>
+            <section class="coursework">
 
+                <div class="project">
+                  <h3>Site #1: Student Site</h3>
+                  <ul>
+                     <li><a href="../index.html">Student Site Home Page</a></li>
+                     <li><a href="index.html">Student Site ART 128 Page</a></li>
+                  </ul>
+                  </div>
 
-/* SITE STRUCTURE */
+                <div class="project">
+                    <h3>Site #2: Site Base</h3>
+                    <ul>
+                        <li>[ Assignments coming soon ]</li>
+                        <li>[ ... ]</li>
+                        <li>[ ... ]</li>
+                    </ul>
+                </div>
 
-header{
-    background-color: rgba(0,102,204,1);
-    color: rgba(0,0,0,0.8);
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
+                <div class="project">
+                    <h3>Site #3: _________</h3>
+                    <ul>
+                        <li>[ Assignments coming soon ]</li>
+                        <li>[ ... ]</li>
+                        <li>[ ... ]</li>
+                    </ul>
+                </div>
 
-header a{
-    color:rgba(255,255,255,0.8);
-    text-align: none;
-}
+            </section>      
+        </main>
 
-header a:hover{
-    color:rgba(255,255,255,1)
-}
+        <footer>
+            <nav class="social-nav">
+                <ul>
+                    <li><a href="https://github.com/lilyri">My Github</a></li>
+                    <li><a href="https://codepen.io/lilyri">My Codepen</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 
-
-/* SITE ID */
-.site-id h1{
-    margin: 0;
-}
-
-/* SITE NAV */
-.site-nav ul{
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.site-nav a{
-    display: block;
-    padding: 1em;
-}
-
-/* MAIN */
-main{
-    background: rgba(0,0,0,.05);
-}
-
-/* HERO SECTION */
-.hero{
-    background-color: rgba(0,102,204,1);
-    text-align: center;
-    color: white;
-    padding: 6em 1em;
-}
-
-.hero h2{
-    font-size: 6em;
-    line-height: 1;
-    text-transform: uppercase;
-    margin: 0 auto;
-}
-
-.hero p{
-    max-width: 30em;
-    margin: 1em auto;
-}
-
-/* COURSE SECTION */
-.courses{
-    padding: 6em 1em;
-    display: grid;
-    justify-content: center;
-}
-
-.courses ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.courses h3{
-    text-align: center;
-}
-
-
-/* FOOTER */
-footer{
-    border-top: 1px solid rgba(0,0,0,0.5);
-    padding: 1em;
-}
-
-/* SOCIAL NAV */
-.social-nav ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-.social-nav a{
-    display: block;
-    padding: 1em;
-}
-
-/* FOR DEV PURPOSES */
-/* body *{
-    background-color: rgba(0,0,0,.05) !important;
-    border:1px solid rgba(0,0,0,.1) !important;
-    color:rgba(0,0,0,.5) !important
-}*/
+</html>
