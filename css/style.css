@@ -97,6 +97,21 @@ main{
     text-align: center;
 }
 
+/* STYLING FOR SUB PAGES */
+.page-sub .hero {
+    background-color:rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.8);
+
+/* COURSEWORK WITH MULTIPLE PROJECT LISTS */
+.coursework {
+    padding: 3em 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 2em;
 
 /* FOOTER */
 footer{
