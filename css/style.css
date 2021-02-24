@@ -101,6 +101,7 @@ main{
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
+}
 
 /* COURSE WORKS WITH MULTIPLE PROJECT LISTS */
 .coursework {
