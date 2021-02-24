@@ -152,9 +152,15 @@ aside {
 
 /* CUSTOM HOME PAGE STYLING */
 .page-home .hero {
-    background-image: url('https://picsum.photos/id/159/1600/800')
+    background-image: url('../img/leaf.jpg');
     background-position: center top;
     background-size: cover;
+}
+
+.page-home header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
 }
 
 /* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
