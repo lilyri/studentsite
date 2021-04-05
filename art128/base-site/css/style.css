@@ -123,7 +123,7 @@ button {
     color: rgba(255, 255, 255, 1);
     padding: 1em;
     display: inline-block;
-    margin: 0.5em;
+    margin: 0.5em .5em .5em 0;
     text-align: center;
     border-radius: .5em;
 }
@@ -176,7 +176,6 @@ body {margin: 0;}
         font-size: 112.5%; /* 18px */
     }
     .container {
-        max-width: fit-content;
     }
 }
 
@@ -258,6 +257,7 @@ body.demo::before {
 
 
 
+
 /* FOR DEMO PURPOSES ONLY */
 .demo .column {
     background: rgba(0, 0, 0, .2);
@@ -267,13 +267,9 @@ body.demo::before {
 
 /* SITE STRUCTURE */
 
-.container {
-    border: 2px solid red;
-}
-
 /* SITE HEADER */
 .site-header {
-    background-color: rgba(255, 0, 0, .2);
+    padding: 1em 0;
 }
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
@@ -297,22 +293,16 @@ body.demo::before {
 }
 
 /* LOGO AREA */
-.site-id {
-    background-color: rgba(255, 0, 255, .5);
-    border: 1px solid green;
-}
 
 .site-id h1 {
     font-size: 1.5em;
     margin: 0;
+    padding-top: 0.55em;
     text-align: center;
 }
 
 /* SITE NAV */
-.site-nav {
-    background-color: rgba(153, 153, 255, .5);
-    border: 1px solid green;
-}
+
 
 .site-nav ul {
     margin: 0;
@@ -322,11 +312,6 @@ body.demo::before {
     justify-content: center;
 }
 
-.site-nav li {
-    background-color: rgba(0, 255, 255, .5);
-    border: 1px solid green;
-}
-
 .site-nav a {
     display: block;
     padding: 1em;
@@ -334,12 +319,17 @@ body.demo::before {
 
 /* SITE MAIN */
 .site-main {
-    background-color: rgba(0, 255, 0, .2);
+/* background-color: rgba(0, 255, 0, .2);  */
+}
+
+/* SECTIONS */
+section {
+    padding: 6em 0;
 }
 
 /* SITE FOOTER */
 .site-footer {
-    background-color: rgba(0, 0, 255, .2);
+    /*background-color: rgba(0, 0, 255, .2);*/
 }
 
 .site-footer a {
@@ -349,5 +339,13 @@ body.demo::before {
 
 /* HERO */
 .hero {
-    background-color: rgba(255, 255, .2);
+    padding: 6em 4%;
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.hero h1, p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
