@@ -59,7 +59,7 @@ h2 {
 
 h3 {
     font-size: 1.5em; /* 424x */
-    line-height: 1.2;.4
+    line-height: 1.2;
 }
 
 h4 {
@@ -382,32 +382,32 @@ section {
         background-color: rgba(0, 0, 153, 1);
         color: white
     }
-    .toggle-nav [data-navstate="close"] ul {
+
+    .toggle-nav[data-navstate="closed"] .site-nav ul {
         height: 0;
         overflow: hidden;
     }
-    .toggle-nav [data-navstate="open"] ul {
+    .toggle-nav[data-navstate="open"] .site-nav ul {
         height: auto;
         overflow: visible;
     }
 
     /* NAVICON*/
-    .toggle-nav .site-nav .menu-botton.navicon {
+    .toggle-nav .site-nav .menu-button.navicon {
         border: none;
         color:rgba(255, 255, 255, 0)
     }
-    .toggle-nav .site-nav .menu-botton.navicon::after {
+    .toggle-nav .site-nav .menu-button.navicon::after {
         content: "\2630";
         display: inline-block;
         padding: 0 .4em;
         margin: 0;
         color: rgba(0, 0, 0, .8);
         font-size: 1.5em;
-        background: pink;
     }
 
-    .toggle-nav [data-navstate="open"] .site-nav .menu-bottom.menu-botton.navicon::after {
+    .toggle-nav[data-navstate="open"] .site-nav 
+    .menu-button.navicon::after {
         content: "\2715";
       }
-
 }
