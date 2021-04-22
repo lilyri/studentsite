@@ -59,7 +59,7 @@ h2 {
 
 h3 {
     font-size: 1.5em; /* 424x */
-    line-height: 1.2;
+    line-height: 1.2;.4
 }
 
 h4 {
@@ -73,12 +73,13 @@ h5 {
 }
 
 h6 {
-    font-size: 1em; /* 16px */
+    font-size: 1em; /* 12px */
     line-height: 1.5;
+
 }
 
 /* PARAGRAPHS */
-p {
+P {
     margin: .5em 0;
     max-width: 38em;
 }
@@ -105,6 +106,23 @@ a:hover {
 .horiz-center {
     margin-left: auto;
     margin-right: auto;
+}
+
+.text-image {
+    position:relative;
+    width: 500px;
+}
+
+.text-image {
+    width: 100%;
+}
+
+.text-image p {
+    position: absolute;
+    top: 25%;
+    left:40%;
+    font-size: 60px;
+    color: #FF0000;
 }
 
 /* IMAGES */
@@ -303,6 +321,7 @@ body.demo::before {
 
 /* SITE NAV */
 
+
 .site-nav ul {
     margin: 0;
     padding: 0;
@@ -314,10 +333,6 @@ body.demo::before {
 .site-nav a {
     display: block;
     padding: 1em;
-}
-
-.site-nav .menu-button {
-    display: none;
 }
 
 /* SITE MAIN */
@@ -347,68 +362,8 @@ section {
     text-align: center;
 }
 
-.hero h1,
-.hero p {
+.hero h1, p {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* TOGGLE NAV*/
- 
-@media (max-width: 767px) {
-    .toggle-nav .site-id { 
-        position: absolute;
-    }
-    .toggle-nav .site-nav {
-        text-align: right;
-    }
-    .toggle-nav .site-nav .menu-button {
-        display: block;
-        display: inline-block;
-        cursor: pointer;
-        padding: .3em .8em;
-        margin-bottom: .8em 0;
-        border: 1px solid black;
-    }
-    .toggle-nav .site-nav .menu-button::selection {
-        background: rgba(255, 255, 255, 0);
-    }
-
-    .toggle-nav .site-nav ul {
-        display: block;
-        text-align: center;
-    }
-    .toggle-nav .site-nav a:hover {
-        background-color: rgba(0, 0, 153, 1);
-        color: white
-    }
-
-    .toggle-nav[data-navstate="closed"] .site-nav ul {
-        height: 0;
-        overflow: hidden;
-    }
-    .toggle-nav[data-navstate="open"] .site-nav ul {
-        height: auto;
-        overflow: visible;
-    }
-
-    /* NAVICON*/
-    .toggle-nav .site-nav .menu-button.navicon {
-        border: none;
-        color:rgba(255, 255, 255, 0)
-    }
-    .toggle-nav .site-nav .menu-button.navicon::after {
-        content: "\2630";
-        display: inline-block;
-        padding: 0 .4em;
-        margin: 0;
-        color: rgba(0, 0, 0, .8);
-        font-size: 1.5em;
-    }
-
-    .toggle-nav[data-navstate="open"] .site-nav 
-    .menu-button.navicon::after {
-        content: "\2715";
-      }
 }
