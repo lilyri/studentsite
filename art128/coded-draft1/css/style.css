@@ -55,27 +55,38 @@ h1 {
 }
 
 h2 {
-    font-size: 2.25em; /* 36px */
+    font-size: 3.12em; /* 50px */
+    color: rgba(79, 53, 211);
+    font-family: Berlin Sans FB;
     line-height: 1.1;
+    text-align: center;
 }
 
 h3 {
-    font-size: 1.5em; /* 424x */
-    line-height: 1.2;.4
+    font-size: 2.5em; /* 40px */
+    color: rgba(255, 103, 0);
+    font-family: Britannic;
+    line-height: 1;.4;
+    text-align: center;
 }
 
 h4 {
-    font-size: 1.3125em; /* 21px */
+    font-size: 1.5em; /* 24px */
+    color: rgba(79, 53, 211);
+    font-family: Arial;
     line-height: 1.3;
+    text-align: center;
 }
 
 h5 {
-    font-size: 1.125em; /* 18px */
+    font-size: 1em; /* 14px */
+    color:rgba(255, 103, 0);
     line-height: 1.4;
+    text-align: center;
 }
 
 h6 {
-    font-size: 1em; /* 12px */
+    font-size: 0.8em; /* 12px */
     line-height: 1;
     text-align: center;
 }
@@ -349,6 +360,7 @@ body.demo::before {
 /* SECTIONS */
 section {
     padding: 6em 0;
+    align-self: center;
 }
 
 /* SITE FOOTER */
@@ -381,4 +393,18 @@ section {
     background-position: center top;
     max-width: 100%;
     height: auto;
+    margin-top: 3ex;
+    margin-bottom: 3ex;
 }
+
+.hero2 {
+    max-width: 100%;
+    height: auto;
+    padding-top: 0ex;
+    margin-bottom: 3ex;
+}
+
+.border {
+    border-style: dashed;
+}
+
