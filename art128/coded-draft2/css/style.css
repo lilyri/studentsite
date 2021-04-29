@@ -66,7 +66,7 @@ h3 {
     font-size: 2.5em; /* 40px */
     color: rgba(255, 103, 0);
     font-family: Britannic;
-    line-height: 1;.4;
+    line-height: 1.4;
     text-align: center;
 }
 
@@ -308,12 +308,12 @@ body.demo::before {
 }
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .site-header .container {
         display: flex; 
         justify-content: space-between;
     }
-}
+} */
 
 /* STYLING FOR BOTH HEADER AND FOOTER */
 .site-header a,
@@ -363,6 +363,11 @@ section {
     align-self: center;
 }
 
+.order {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
 /* SITE FOOTER */
 .site-footer {
     /*background-color: rgba(0, 0, 255, .2);*/
@@ -377,13 +382,18 @@ section {
 .hero {
     padding: 6em 4%;
     background-color: rgba(0, 0, 0, .1);
-    text-align: center;
+    text-align: center; 
 }
 
-.hero h1, p {
+.hero h1, 
+.hero p {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.hero h1 {
+    font-size: 4em; 
 }
 
 /* CUSTOM HOME PAGE STYLING */
@@ -391,17 +401,19 @@ section {
 .hero {
     background-image: url('../img/peony.jpg');
     background-position: center top;
+    background-size: cover;
     max-width: 100%;
     height: auto;
-    margin-top: 3ex;
-    margin-bottom: 3ex;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .hero2 {
     max-width: 100%;
     height: auto;
-    padding-top: 0ex;
-    margin-bottom: 3ex;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 3em;
 }
 
 .border {
