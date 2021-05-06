@@ -48,10 +48,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3.8em; /* 48px */
+    font-size: 3.7em; /* 60px */
     color: rgba(250, 0, 0);
     font-family: Goudy Old Style;
-    line-height: 1;
+    line-height: 1.0;
 }
 
 h2 {
@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5em; /* 40px */
+    font-size: 2.4em; /* 38px */
     color: rgba(255, 103, 0);
     font-family: Britannic;
     line-height: 1.4;
