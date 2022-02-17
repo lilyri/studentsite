@@ -368,7 +368,8 @@ section {
         cursor: pointer;
         padding: .3em .8em;
         margin-bottom: .8em 0;
-        border: 1px solid black;
+        border: none;
+        background-color: transparent;
     }
     .toggle-nav .site-nav .menu-button::selection {
         background: rgba(255, 255, 255, 0);
