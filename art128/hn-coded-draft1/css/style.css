@@ -297,7 +297,7 @@ body.demo::before {
 
 .site-logo {
     padding: 5px;
-    width: 80px;
+    width: 50px;
 }
 
 .site-id-cn h1 {
@@ -305,7 +305,7 @@ body.demo::before {
     margin: 0;
     padding-top: 0.55em;
     text-align: center;
-    height: 30px;
+    height: 20px;
 }
 
 .site-id-en h1 {
@@ -314,7 +314,7 @@ body.demo::before {
     padding-top: 0.55em;
     text-transform: uppercase;
     text-align: center;
-    height: 30px;
+    height: 20px;
 }
 
 /* SITE NAV */
@@ -325,7 +325,7 @@ body.demo::before {
     list-style: none;
     display: flex;
     justify-content: center;
-    height: 20px;
+    height: 10px;
 }
 
 .site-nav a {
