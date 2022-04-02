@@ -46,20 +46,34 @@
 </header> 
     
 <main class="site-main">
-    <div class="container">
-        
-        <img class="mySlides" src="img/slider-image-beach.jpg">
-        <img class="mySlides" src="img/slider-image-turtle.jpg">
-        <img class="mySlides" src="img/slider-image-sunset.jpg">
-        <img class="mySlides" src="img/slider-image-KamehamehaStatue.jpg">
-        <img class="mySlides" src="img/slider-image-fruits.jpg">
-        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+    <link href="slider.css" type="text/css" rel="slidersheet" />
+    <div class="slide-container">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <span id="slider-image-4"></span>
+        <span id="slider-image-5"></span>
+        <div class="image-container">
+            <img src="img/1.jpg" class="slider-image">
+            <img src="img/2.jpg" class="slider-image">
+            <img src="img/3.jpg" class="slider-image">
+            <img src="img/4.jpg" class="slider-image">
+            <img src="img/5.jpg" class="slider-image">
+        </div>
+        <div class="button-container">
+            <a href="#slider-image-1" class="slider-button"></a>
+            <a href="#slider-image-2" class="slider-button"></a>
+            <a href="#slider-image-3" class="slider-button"></a>
+            <a href="#slider-image-4" class="slider-button"></a>
+            <a href="#slider-image-5" class="slider-button"></a>
+        </div>
+    </div>    
 
+    <div class="hero"></div>
         <section class="hero">
             <h1>Clear Beach</h1> 
         </section>
-    </div>
+    
         <section>
             <div class="container">
             <div class="row">
