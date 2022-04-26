@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 3em; /* 48px */
     line-height: 1;
+    text-decoration: none;
 }
 
 h2 {
@@ -269,15 +270,24 @@ body.demo::before {
 /* SITE STRUCTURE */
 
 /* SITE HEADER */
-.site-header {
-    padding: 1em 0;
+.site-header.sticky {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: #686161;
+    opacity: 45%;
+    z-index: 100;
 }
 
 /* ON LARGER SCREENS PLACE LOGO LEFT AND NAV RIGHT */
 @media (min-width: 768px) {
-    .site-header .container {
+    .site-header .header-container {
+        max-width: 1600;
+        margin-top: .75em;
         display: flex; 
         justify-content: space-between;
+        margin:auto;
+        padding: 0 4%;
     }
 }
 
@@ -294,18 +304,25 @@ body.demo::before {
 }
 
 /* LOGO AREA */
+.bg-img1 {
+    background-image:url("bg_img1_sunset.jpg");
+    height: 1280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-container {
+    /* position: absolute; */
+}
 
 .site-logo {
     padding: 5px;
     width: 50px;
 }
 
-.site-id-cn h1 {
-    font-size: 1.0em;
-    margin: 0;
-    padding-top: 0.55em;
-    text-align: center;
-    height: 20px;
+.site-id-en {
+    display: flex;
 }
 
 .site-id-en h1 {
@@ -342,6 +359,18 @@ body.demo::before {
 /* background-color: rgba(0, 255, 0, .2);  */
 }
 
+/* SITE SLIDER */
+
+.image-container {
+    width: 9600px;
+    height: 1280px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
 
 /* SECTIONS */
 section {
@@ -363,6 +392,7 @@ section {
     padding: 6em 4%;
     background-color: rgba(0, 0, 0, .1);
     text-align: center;
+    background-image: url('../img/bg_img1_sunset.jpg');
 }
 
 .hero h1, p {
@@ -429,4 +459,8 @@ section {
     .menu-button.navicon::after {
         content: "\2715";
       }
+}
+
+.container {
+    background-color: rgb(255 0 0 / .3 );
 }
