@@ -33,8 +33,8 @@
             <button class="menu-button navicon">Menu</button>
             <ul>
                <li><a href="#">News</a></li>
+               <li><a href="#">Videos</a></li>
                <li><a href="#">Services</a></li>
-               <li><a href="#">About</a></li>
                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -43,39 +43,114 @@
     
 <main class="site-main">
     <section class="hero">
-        <h1>WELCOME to Paradise - Hawaii</h1> 
+        <h1>Get to know the 
+            Hawaiian Islands</h1> 
+        <p>We offer a comprehensive library 
+            of videos to help you have 
+            the best travel experience 
+            in our island. </p>
     </section>
-    <section class="news">
-        <div class="container">
-           <h1>The latest Information</h1> 
-        </div>
-    </section>   
-    <section class="video">
-        <h1>The Latest Video</h1> 
-    </section>   
-    <section class="map">
-        <h1>More videos</h1> 
-    </section>   
 
-    <section>
+    <section class="selected videos">
         <div class="container">
+            <h6 class="subtitle">"Are your ready?"
+            ;;after==0
+            </h6>
+            <h3 class="section-title">"SELECTED VIDEOS"
+            ;;after==0
+            </h3>
+        <div background color=""   ></div>
 
-            <div class="row">
-                <div class="column one-forth">
-                    <p>3/1/2022</p>
-                    <p>2/8/2022</p>
-                    <p>11/28/2021</p>
-                </div>
-                <div class="column two-forth">
-                    <img src="img/placeholder-1x1.gif" alt="Square 1x1 Placeholder Image">
-                    <h2>Heading 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper, nunc quis euismod porta, ligula dolor interdum dui, quis.</p>        
-                    <a href="#" class="button">Button</a>   
-                </div>
+        <div class="row">        
+            <div class="column one-half">
+                 <h4="video">Latest video</h4>
+                 <video width="320" height="240" controls>
+                 <source src="movie.mp4" type="video/mp4">
+                 <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                 </video>
+            </div>
+            <div class="column one-half">
+                 <h4="video"> Most popular video/ Big Island </h4>
+                 <video width="320" height="240" controls>
+                 <source src="movie.mp4" type="video/mp4">
+                 <source src="movie.ogg" type="video/ogg">
+                 Your browser does not support the video tag.
+                 </video>
             </div>
         </div>
-    </section>
-</main>
+
+        <div class="row">        
+            <div class="column one-half">
+                 <h4="video">Most popular video/ Oahu</h4>
+                 <video width="320" height="240" controls>
+                 <source src="movie.mp4" type="video/mp4">
+                 <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                 </video>
+            </div>
+            <div class="column one-half">
+                 <h4="video"> Most popular video/ Maui </h4>
+                 <video width="320" height="240" controls>
+                 <source src="movie.mp4" type="video/mp4">
+                 <source src="movie.ogg" type="video/ogg">
+                 Your browser does not support the video tag.
+                 </video>
+            </div>
+        </div>
+    </section>   
+
+
+    <section class="latest info">
+        <div class="container">
+            <h6 class="subtitle">"Do you know these changes?"
+            ;;after==0
+            </h6>
+            <h3 class="section-title">"MUST READ BEFORE YOU TRAVEL"
+            ;;after==0
+            </h3>
+            <div background color=""   ></div>
+
+        <div class="row">        
+            <div class="column one-half">
+                 <h4="video">Latest travel requirements</h4>
+	      <li>Hawaii's Safe Travels Program Set to  End  on March 25</li>
+                    <li>COVID-19 Booster Shots Not Required for Travel to Hawaii</li>
+                    <li>Hawaii Is Open For Business, Lifts Many Pandemic Restriction </li>
+            </div>
+            <div class="column one-half">
+                 <h4="video">Updates about previous videos </h4>
+	      <li>Transportation: The HOLO card has been charging $2 fee for new cards and 
+replacements starting March 1, 2022. </li>
+                    <li>COVID-19 Booster Shots Not Required for Travel to Hawaii</li>
+                    <li>Hawaii Is Open For Business, Lifts Many Pandemic Restriction </li>
+            </div>
+        </div>
+    </section>   
+
+    <section class="explore more">
+        <div class="container">
+            <h6 class="subtitle">"Want to watch more?"
+            ;;after==0
+            </h6>
+            <h3 class="section-title">"EXPLORE EACH ISLAND"
+            ;;after==0
+            </h3>
+                 <img src="pic_trulli.jpg" alt="Italian Trulli">
+            </div>      
+    </section>   
+
+    <div id="Page1">
+        Content of page 1
+        <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+      </div>
+        
+      <div id="Page2" style="display:none">
+        Content of page 2
+        <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
+      </div>
+
+
 
 <footer class="site-footer">
     <div class="container">
