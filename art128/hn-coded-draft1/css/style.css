@@ -32,7 +32,7 @@
 
 body {
     font-size: 87.5%; /* 14px */
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: myriad-pro, sans-serif;
     line-height: 1.5;
     color:rgba(0, 0, 0, .8);
 }
@@ -44,14 +44,15 @@ body {
 */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'goudy-old-style', Georgia, Times New Roman, Times, serif;
     margin: .5em 0;
 }
 
 h1 {
+    font-family: Myriad Pro;
     font-size: 3em; /* 48px */
     line-height: 1;
     text-decoration: none;
+    padding-left: 100px;
 }
 
 h2 {
@@ -273,7 +274,7 @@ body.demo::before {
 .site-header.sticky {
     position: absolute;
     width: 100%;
-    top: 0;
+    top: 20px;
     background-color: #686161;
     opacity: 45%;
     z-index: 100;
@@ -306,7 +307,8 @@ body.demo::before {
 /* LOGO AREA */
 .bg-img1 {
     background-image:url("bg_img1_sunset.jpg");
-    height: 1280px;
+    height: auto;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -389,17 +391,30 @@ section {
 
 /* HERO */
 .hero {
-    padding: 6em 4%;
+    padding: 15em 4%;
     background-color: rgba(0, 0, 0, .1);
     text-align: center;
     background-image: url('../img/bg_img1_sunset.jpg');
+    background-size: cover;
+    background-position: center 60%;
 }
 
-.hero h1, p {
-    max-width: 500px;
-    margin-left: auto;
+.hero h2, .hero p {
+    max-width: 1000px;
+    margin-left: 300px;
     margin-right: auto;
-}
+    color: white;
+    }
+
+.hero h2{
+    font-family: Goudy Old Style;
+    font-size: 5em; /* 90px */
+}    
+.hero p{
+    font-family: montserrat, sans-serif;
+    font-size: 3.125em; /* 50px */
+
+    }
 
 /* TOGGLE NAV*/
  
