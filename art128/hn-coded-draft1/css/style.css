@@ -361,6 +361,18 @@ body.demo::before {
 /* background-color: rgba(0, 255, 0, .2);  */
 }
 
+/* Selected videos */
+.rectangle {
+    display: flex;
+    height: 210px;
+    background-color: #665454;
+    margin-top: 0;
+}
+
+.subtitle {
+
+}
+
 /* SITE SLIDER */
 
 .image-container {
@@ -400,7 +412,7 @@ section {
 }
 
 .hero h2, .hero p {
-    max-width: 1000px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -410,12 +422,17 @@ section {
     font-family: Goudy Old Style;
     font-size: 5em; /* 90px */
     margin: 0;
+    padding-left: 300px;
+    text-align: left;
 }    
 .hero p{
     font-family: montserrat, sans-serif;
-    font-size: 3.125em; /* 50px */
+    font-size: 3em; /* 48px */
     text-align: left;
     margin: 0;
+    padding-left: 300px;
+    padding-top: 200px;
+    text-align: left;
     }
     
 
@@ -460,9 +477,9 @@ section {
     }
 
     /* NAVICON*/
-    .toggle-nav .site-nav .menu-button.navicon {
+    .toggle-nav .site-nav .menu-buttonnavicon {
         border: none;
-        color:rgba(255, 255, 255, 0)
+        color:rgba(255, 255, 255)
     }
     .toggle-nav .site-nav .menu-button.navicon::after {
         content: "\2630";
