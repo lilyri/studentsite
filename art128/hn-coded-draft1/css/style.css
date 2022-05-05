@@ -412,7 +412,7 @@ section {
 }
 
 .hero h2, .hero p {
-    max-width: 1300px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -431,8 +431,7 @@ section {
     text-align: left;
     margin: 0;
     padding-left: 300px;
-    padding-top: 200px;
-    text-align: left;
+    padding-top: 250px;
     }
     
 
