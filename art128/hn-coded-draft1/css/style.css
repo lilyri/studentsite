@@ -396,12 +396,12 @@ section {
     text-align: center;
     background-image: url('../img/bg_img1_sunset.jpg');
     background-size: cover;
-    background-position: center 60%;
+    background-position: center 100%;
 }
 
 .hero h2, .hero p {
     max-width: 1000px;
-    margin-left: 300px;
+    margin-left: auto;
     margin-right: auto;
     color: white;
     }
@@ -409,12 +409,15 @@ section {
 .hero h2{
     font-family: Goudy Old Style;
     font-size: 5em; /* 90px */
+    margin: 0;
 }    
 .hero p{
     font-family: montserrat, sans-serif;
     font-size: 3.125em; /* 50px */
-
+    text-align: left;
+    margin: 0;
     }
+    
 
 /* TOGGLE NAV*/
  
