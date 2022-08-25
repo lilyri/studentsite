@@ -94,8 +94,25 @@ main{
 }
 
 .courses h3{
-    text-align: center;
+    display: block;
+    font-size: 1.20em;
+    font-weight: bold;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+/* Comments 
+::maker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px ! important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+*/
 
 /* FOOTER */
 footer{
