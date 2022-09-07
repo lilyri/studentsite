@@ -55,6 +55,15 @@ max-width: 100%;
 height: auto;
 }
 
+.caption {
+    font-size: 2em;
+    float: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
 /* SITE-STRUCTURE */
 
 .site-header,
@@ -99,11 +108,23 @@ section {
 }
 
 /* #LAYOUT: THUMB IMAGE GRID */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container1 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .thumbgrid {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 0%;
+  margin: 0;
 }
 
 .thumbgrid li {
