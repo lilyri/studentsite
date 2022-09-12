@@ -23,6 +23,7 @@ CSS
 body {
   font-family: Helvetica, Arial, sans-serif;
   color: rgba(0,0,0,.7);
+  background-color: #F5EEF8;
   max-width: 1000px;
   margin: 0 auto;
   padding: 1em;
@@ -31,8 +32,80 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
+  font-family: candara;
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #00ddff, #ff00d4);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 0;
 }
+
+h2 {
+    font-size: 1.5em;
+    font-family: Microsoft YaHei UI;
+    color: #1f2f98;
+    line-height: normal;
+    max-height: none;
+    min-height: 0px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+h3 {
+    font-size: 2em;
+    font-family: Gabriola;
+    color: #0c71e0;
+    line-height: 1em;
+    font-weight: lighter;
+    max-height: none;
+    min-height: 0px;
+    margin-bottom: 0;
+  }
+
+h4 {
+    font-size: 0.8em;
+    font-family: Microsoft YaHei UI;
+    line-height: normal;
+    max-height: none;
+    min-height: 0px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+
+  }
+  
+h5 {
+    font-size: 1em;
+    font-family: Microsoft YaHei UI;
+    color: #1f2f98;
+    line-height: normal;
+    max-height: none;
+    min-height: 0px;
+    font-weight: lighter;
+    text-align: right;
+    margin-top: 0;
+  }
+
+  h6 {
+    font-size: 1em;
+    font-family: Microsoft YaHei UI;
+    line-height: normal;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  p {font-size: 1em;
+    font-family: Microsoft YaHei UI;
+    line-height: normal;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 0;
+  }
+
 
 /* #LINKS */
 a {
@@ -148,5 +221,9 @@ section {
 .thumbgrid a:hover img {
     filter: brightness(1);
     border: 1px solid rgba(0,0,0,.3);
+}
+
+a:hover {
+    color: brown;
 }
 
