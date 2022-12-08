@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hawaii Navigation - Info</title>
+    <meta name="description" content="A simple sassy css website starter." />
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- ADOBE FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/rzn2jxa.css">
+
+    <!-- MAIN CSS STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="subpage info">
+    <header class="site-header">
+ 
+      <div class="site-id">
+        <div class="logomark">
+            <img src="image/logo_hawaiinavi.png" alt="Square Logo" width="50" height="50">
+        </div>
+        <h1>Hawaii Navigation</h1>
+      </div>
+    
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="info.html">INFO</a></li>
+          <li><a href="video.html">VIDEOS</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+  <main class="site-main">
+
+    <div class="container two-col-with-aside">
+
+        <section class="main-content">
+            <h4>Our Service</h4>
+            <div class="container">
+                <div class="layout">
+                    <div class="row">
+                        <div class="one-third colum"><img src="image/services_1.jpg" width="200" height="130" alt="tourinfo"></div>
+                        <div class="two-thirds colum"><h5>Travel Information</h5>
+                        <p>We share all the travel information through various videos. We uplaod the new video constantly. Subscribe our channel! You won't miss any the latest video!</p>       
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="one-third colum"><img src="image/services_2.jpg" width="200" height="130" alt="privatetour"></div>
+                        <div class="two-thirds colum"><h5>Luxury Private Tour Coordination</h5>
+                        <p>Providing a Private Luxury Travel Arrangement, focused on customized services for teh exclusive and discerning traveler.</p>       
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="one-third colum"><img src="image/services_3.jpg" alt="customizedservice"></div>
+                        <div class="two-thirds colum"><h5>Customized Service</h5>
+                        <p>More flexible service delivery which includes wedding coordination.</p>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+            
+        <section class="aside-content">
+                <h4>Contact Us</h4>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname" value="first name">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname" value="last name">
+                        <label for="lname">Email Address</label>
+                        <input type="text" id="emailaddress" name="fname" value="Email address">
+                        <label for="lname">Message</label>
+                        <!-- <input type="text" id="lname" name="lname" value="Doe"><br> -->
+                        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+
+                        <!-- <div class="content-box"> Message</div> -->
+                        <input type="submit" value="Submit">
+                      </form> 
+                      
+                </div>
+        </section>
+
+    </div>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+
+        <div class="row">
+            <div class="one-third">
+                <h5>HAWAII NAVIGATION</h5>
+                <p>A Hawaii-based company who loves nature, adventure and is passionate about sharing all about Hawaii.</p>
+            </div>
+            <div class="one-third two-up">
+                <p>Subscribe to our YouTube channel. More fun videos come soon!</p>
+                <div>
+                    <img src="image/youtube_icon.png"  alt="">
+                </div>
+            </div>
+            <div class="one-third">
+                <p>The latest traveling info and Hawaii marketing insights DIRECT TO YOUR INBOX</p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="one-third">
+                <p>Copyright 2022 Hawaii Navigation</p>
+            </div>
+            <div class="one-third">
+                <p>Privacy Policy</p>
+            </div>
+            <div class="one-third">
+                <p>Terms and Conditions</p>
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+
+<!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800,
+        speedAsDuration: true
+    });
+</script>
+
+<!-- MAIN JS SCRIPT.JS -->
+<script src="js/script.js" defer></script>
+
+</body>
+
+</html>
