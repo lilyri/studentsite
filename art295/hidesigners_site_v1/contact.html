@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HIdesigners</title>
+    <meta name="description" content="A simple sassy css website starter." />
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- ADOBE FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/rzn2jxa.css">
+
+    <!-- MAIN CSS STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top" data-loom-blur-type="NONE">
+    <header class="site-header toggle-nav sticky" data-navstate="closed">
+        <div class="site-id">
+            <h1>
+                <a href="#" class="scroll">HIdesigners</a>
+            </h1>
+        </div>
+        <nav class="site-nav">
+            <div class="menu-button navicon hide-visually">Menu</div>
+            <ul class="nav">
+                <li class="hidden-lg">
+                    <a class="scroll" href="#top">About</a>
+                </li>
+                <li class="hidden-lg">
+                    <a class="scroll" href="#ourdesigners">Our Designers</a>
+                </li>
+                <li class="hidden-lg">
+                    <a class="scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Dropdown</button>
+                        <div class="dropdown-content">
+                            <a href="#">USD</a>
+                        </div>
+                        </div>
+                    <!-- <div class="language-switcher" aria-label="select language">
+                        <a id="international_domain_drop_drown" class="language link" language-click="toggleregion()" aria-haspopup="true" aria-expanded="false" aria-label="select language">
+                            <i class="icon-flag-usa"></i>
+                            <span class="label" aria-hidden="true">USD</span>
+                            ::after
+                          </a>
+                         <ul class="flag-list" role="menu">
+                             <li class="flag-li language-hide" role="menuitem" language-show="regionselectionmenuisopen" style="">
+                            <a id="change_language_option_jp" class="region flag-link" href="" language-click="navselectcountry('ja-JP','')"></a>
+                             </li>
+                         </ul>
+                    </div> -->
+                </li>
+             </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+    <div class="bg-colors v-align-outer">
+        <div class="lc vi-align-inner">
+            <section class="hero slideshow">
+            </section>
+
+            <section class="contactus">
+                <div class="container">
+                    <h3>Get in Touch</h3>
+                    <p>Thank you for stopping by. Please feel free to get a quote. We'll get back to you as soon as possible.</p>
+                </div>
+            </section>
+
+            <section id="contact-form">
+                <h2>Contact</h2>
+                <form id="contact" name="contact" accept-charset="utf-8">
+                  <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+                  <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+                      <label><span>Message Subject</span>
+              <!--     </span><input name="subject" type="subject" placeholder="Message Subject"/></label> -->
+                  <select name="category" id="category">
+                    <option value="branding">Branding</option>
+                    <option value="branding">UX/UI Design</option>
+                    <option value="branding">Web Development</option>
+                    <option value="branding">Motion Graphic</option>
+                    <option value="branding">Video Editing</option>
+                    <option value="branding">Photography</option>
+                    <option value="branding">Others</option>
+                  </slect>
+                  <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
+                  <input name="submit" type="submit" value="Send"/>
+                </form>
+              </section>
+
+        </div>
+    </div>
+</main>
+
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="one-third">
+                <h6>Copyright 2023 HIdesigners</h6>
+            </div>
+            <div class="one-third">
+                <h6>Privacy Policy</h6>
+            </div>
+            <div class="one-third">
+                <h6>Terms and Conditions</h6>
+            </div>
+        </div>
+
+
+    </div>
+</footer>
+
+<!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+<script src="js/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800,
+        speedAsDuration: true
+    });
+</script>
+
+<!-- MAIN JS SCRIPT.JS -->
+<script src="js/script.js" defer></script>
+
+</body>
+</html>
